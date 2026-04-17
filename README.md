@@ -65,7 +65,7 @@ http://localhost:3000/posts
 
 ## 📸 Screenshots
 
-![Project Screenshot](.home.png)
+![Project Screenshot](./home.png)
 
 ---
 
