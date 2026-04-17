@@ -86,4 +86,4 @@ http://localhost:3000/posts
 
 ## 🙌 Author
 
-Made with ❤️ by You
+Jagan Kumar Rath
