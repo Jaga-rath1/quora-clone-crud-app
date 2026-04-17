@@ -65,7 +65,9 @@ http://localhost:3000/posts
 
 ## 📸 Screenshots
 
-(Add your screenshots here)
+1. Home page (home.png)
+2. Edit The Page (edit.png)
+3. Page Details (details.png)
 
 ---
 
