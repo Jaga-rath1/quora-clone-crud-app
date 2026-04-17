@@ -1,0 +1,75 @@
+/* Body Theme */
+body {
+font-family: 'Poppins', sans-serif;
+background: linear-gradient(135deg, #1d2671, #c33764);
+color: white;
+padding: 30px;
+}
+
+/* Title */
+h1 {
+text-align: center;
+font-size: 2.5rem;
+margin-bottom: 40px;
+}
+
+/* Detail Card */
+.detail-card {
+width: 50%;
+margin: auto;
+padding: 30px;
+border-radius: 20px;
+background: rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(15px);
+box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+transition: 0.3s;
+}
+
+/* Hover effect */
+.detail-card:hover {
+transform: scale(1.02);
+}
+
+/* Text Styling */
+p {
+font-size: 0.9rem;
+color: #ccc;
+}
+
+h3 {
+color: #ffdd57;
+margin-top: 10px;
+}
+
+h4 {
+margin-top: 15px;
+line-height: 1.6;
+font-weight: 400;
+}
+
+/* Back Button */
+.back-btn {
+display: block;
+margin: 30px auto 0;
+text-align: center;
+width: 150px;
+padding: 10px;
+border-radius: 12px;
+background: #00f2fe;
+color: black;
+text-decoration: none;
+font-weight: 500;
+transition: 0.3s;
+}
+
+.back-btn:hover {
+background: #00c6ff;
+color: white;
+}
+
+/* Responsive */
+@media(max-width: 768px) {
+.detail-card {
+width: 90%;
+}
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit The Form</title>
+    <link rel="stylesheet" href="/edit.css">
+</head>
+<body>
+    <h1>Here Is Your Edit Form</h1>
+    <br><br><br><br>
+    <div class="edit-card">
+    <h4>id : <%= post.id %></h4>
+    <h3>Username : <%= post.username %></h3>
+
+    <form action="/posts/<%= post.id %>?_method=PATCH" method="post">
+        <textarea name="content"><%= post.content %></textarea>
+        <button>Update Post</button>
+    </form>
+
+    <a href="/posts" class="back-btn">⬅ Back</a>
+</div>
+</body>
+</html>
