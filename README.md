@@ -69,9 +69,11 @@ http://localhost:3000/posts
 
 ![Edit Page Screenshot](./edit.png)
 
-![Post Details Screenshot](./details.png)
+![Post Details Page Screenshot](./details.png)
 
----
+![Create Post Page Screenshot](./createpost.png)
+
+
 
 ## 💡 Future Improvements
 
